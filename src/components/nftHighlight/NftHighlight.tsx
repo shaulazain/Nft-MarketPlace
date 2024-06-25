@@ -1,6 +1,6 @@
 import { ReactComponent as EyeIcon } from "../../assets/icons/eye.svg";
-import Timer1 from "./timer";
 import avatar from '../../assets/avatar.png'
+import Timer1 from "./timer";
 
 export default function NftHighlight(): JSX.Element {
   return (
