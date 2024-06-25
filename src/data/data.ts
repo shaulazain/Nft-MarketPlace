@@ -18,6 +18,6 @@ export const getArtistName = async (
     return artistName;
   } catch (error) {
     console.error("Error fetching artist name:", error);
-    return "failed to get user data";
+    return "failed get user data";
   }
 };

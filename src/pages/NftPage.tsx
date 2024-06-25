@@ -1,10 +1,10 @@
-import Timer1 from "../components/nftHighlight/timer";
 import { useParams } from "react-router-dom";
 import { useAppSelector, useAppDispatch } from "../hooks/hooks";
-import { useEffect } from "react";
-import { fetchNft, clearNfts } from "../store/slices/NftSlice";
 import { ArtistName } from "../components/data/artistName";
 import loader from '../assets/loadingRocket.gif'
+import { useEffect } from "react";
+import Timer1 from "../components/NftHighlight/timer";
+import { fetchNft, clearNfts } from "../store/slices/NftSlice";
 export default function NFTPage(): JSX.Element {
   const { contract, identifier } = useParams();
   let nft = useAppSelector((state) => state.NftReducer.nft?.nft) || null;

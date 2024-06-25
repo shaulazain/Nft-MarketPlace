@@ -17,7 +17,7 @@ export default function Collections(): JSX.Element {
     window.scrollTo({ top: 0, behavior: "smooth" });
     dispatch(clearNfts());
     if (collectionSlug) {
-      dispatch(fetchNftsByCollection({collection_slug:collectionSlug,limit:9}));
+      dispatch(fetchNftsByCollection({collection_slug:collectionSlug,limit:15}));
     }
   }, [collectionSlug, dispatch]);
 
@@ -53,7 +53,7 @@ export default function Collections(): JSX.Element {
             <div className="flex items-center justify-center gap-4">
               <h5>NFTs</h5>
               <span className="rounded-[20px] bg-[#858584] px-[10px] py-[5px]">
-                302
+                400
               </span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
 import { useEffect } from "react";
 import { ReactComponent as EyeIcon } from "../../assets/icons/eye.svg";
-import DisplayNFTs from "../../components/displayNFTs/DisplayNfts";
+import DisplayNFTs from "../displayNFTs/DisplayNfts";
 import {
   fetchNftsByCollection,
   clearNfts,

@@ -16,7 +16,7 @@ export default function HowItWorks(): JSX.Element {
         {/* cards */}
         <div className="flex flex-col md:flex-row gap-[20px] md:gap-[30px] ">
           {/* single card */}
-          <div className="pt-[10px] md:px-[20px] md:pb-[30px] lg:px-[30px] md:w-[210px] lg:w-[330px] flex md:flex-col  items-center  gap-[20px] md:gap-[30px] bg-[#3B3B3B] p-[20px] rounded-[20px]">
+          <div className="pt-[10px] md:px-[20px] md:pb-[30px] lg:px-[30px] md:w-[210px] lg:w-[330px] flex md:flex-col  items-center  gap-[20px] md:gap-[30px] bg-[#3B3B3B] p-[20px] rounded-[20px] ">
             <img
               src={wallet}
               className=" size-[100px] md:size-[160px]  lg:size-[250px]  "

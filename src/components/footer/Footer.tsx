@@ -64,7 +64,7 @@ export default function Footer(): JSX.Element {
 
       <hr className="w-full border border-[#858584] mt-[30px] " />
       <p className="pt-[20px] text-[#CCCCCC] text-[12px]">
-        Ⓒ NFT Market. Use this template freely.
+        Ⓒ NFT Market. Use this template freely. CopyRight Reserved by Shahzaib
       </p>
     </div>
   );
