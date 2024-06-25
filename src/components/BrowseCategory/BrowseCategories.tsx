@@ -1,20 +1,20 @@
+import { ReactComponent as MusicIcon } from "../../assets/categoriesData/icons/music.svg";
 import artImg from "../../assets/categoriesData/images/art.png";
 import collectiblesImg from "../../assets/categoriesData/images/collectibles.png";
+import { ReactComponent as CollectionIcon } from "../../assets/categoriesData/icons/collection.svg";
 import musicImg from "../../assets/categoriesData/images/music.png";
+import { ReactComponent as VirtualWordsIcon } from "../../assets/categoriesData/icons/virtualWords.svg";
 import photographyImg from "../../assets/categoriesData/images/photography.png";
+import { CategoryItem } from "../../types/commonTypes";
 import sportImg from "../../assets/categoriesData/images/sport.png";
+import { ReactComponent as PhotographyIcon } from "../../assets/categoriesData/icons/photography.svg";
 import utilityImg from "../../assets/categoriesData/images/utility.png";
 import videoImg from "../../assets/categoriesData/images/video.png";
 import virtualWorldsImg from "../../assets/categoriesData/images/virtualWorlds.png";
 import { ReactComponent as ArtIcon } from "../../assets/categoriesData/icons/art.svg";
-import { ReactComponent as CollectionIcon } from "../../assets/categoriesData/icons/collection.svg";
 import { ReactComponent as UtilityIcon } from "../../assets/categoriesData/icons/utility.svg";
-import { ReactComponent as PhotographyIcon } from "../../assets/categoriesData/icons/photography.svg";
 import { ReactComponent as SportIcon } from "../../assets/categoriesData/icons/sport.svg";
-import { ReactComponent as VirtualWordsIcon } from "../../assets/categoriesData/icons/virtualWords.svg";
 import { ReactComponent as VideoIcon } from "../../assets/categoriesData/icons/video.svg";
-import { ReactComponent as MusicIcon } from "../../assets/categoriesData/icons/music.svg";
-import { CategoryItem } from "../../types/commonTypes";
 
 export default function BrowseCategories(): JSX.Element {
   const categoryItems: CategoryItem[] = [
