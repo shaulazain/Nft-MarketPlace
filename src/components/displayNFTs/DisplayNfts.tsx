@@ -1,6 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { NftType } from "../../types/nfts/commonTypes";
+import { NftType } from "../../types/types";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import loading from "../../assets/loading.gif"

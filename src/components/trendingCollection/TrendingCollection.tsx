@@ -1,8 +1,8 @@
 import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
 import { useEffect } from "react";
-import { fetchCollections } from "../../store/slices/NftCollectionsSlice";
-import { CollectionType } from "../../types/nfts/commonTypes";
+import { CollectionType } from "../../types/types";
 import { Link } from "react-router-dom";
+import { fetchCollections } from "../../store/slices/NftCollectionsSlice";
 export default function TrendingCollection(): JSX.Element {
   const collections = useAppSelector(
     (state) => state.collectionsReducer.collections?.collections
@@ -39,22 +39,7 @@ export default function TrendingCollection(): JSX.Element {
                 className=" w-full  size-[315px] md:size-[330px] rounded-[20px]"
               />
 
-              {/* inner small cards to match ui for extendibily*/}
-              {/* <div className="flex justify-between gap-[15px]">
-                        
-
-                        
-                        <div className="bg-blue-500 w-[95px] h-[95px] md:max-w-[100px] md:max-h-[100px] rounded-[20px]">
-                          
-                        </div>
-                        <div className="bg-blue-500 w-[95px] h-[95px]  md:max-w-[100px] md:max-h-[100px] rounded-[20px]">
-                          
-                        </div>
-                        <div className="bg-blue-500 w-[95px] h-[95px]  md:max-w-[100px] md:max-h-[100px] rounded-[20px]">
-
-                        </div>
-                       
-                    </div> */}
+             
 
               <div className="flex flex-col gap-[10px] mt-2">
                 <h5 className=" size-[22px] font-semibold w-full">

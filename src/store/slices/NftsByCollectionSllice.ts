@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { GetNftsByCollectionResponse, fetchNftByCollectionParams } from "../../types/nfts/commonTypes";
-import { NftsByCollectionState } from "../../types/redux/commonTypes";
+import { GetNftsByCollectionResponse, fetchNftByCollectionParams } from "../../types/types";
+import { NftsByCollectionState } from "../../types/types";
 import openSeaApi from "../../api";
 
 export const fetchNftsByCollection = createAsyncThunk<

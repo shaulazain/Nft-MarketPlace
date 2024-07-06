@@ -1,8 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import type { CollectionsState } from "../../types/redux/commonTypes";
+import type { CollectionsState } from "../../types/types";
 import openSeaApi from "../../api";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { GetCollectionsResponse } from "../../types/nfts/commonTypes";
+import { GetCollectionsResponse } from "../../types/types";
 
 export const fetchCollections = createAsyncThunk<
   GetCollectionsResponse,

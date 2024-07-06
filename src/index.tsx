@@ -7,8 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { store } from "./store/Store";
 import { Provider } from "react-redux";
 import Home from "./pages/Home";
-import Category from "./pages/Collections";
-import NFTPage from "./pages/NftPage";
+import Category from "./pages/collections/Collections";
+import NFTPage from "./pages/nftPages/NftPage";
 
 const router = createBrowserRouter([
   {

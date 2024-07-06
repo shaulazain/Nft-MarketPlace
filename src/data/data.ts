@@ -1,5 +1,5 @@
 import openSeaApi from "../api";
-import { AccountInfoResponseType } from "../types/nfts/commonTypes";
+import { AccountInfoResponseType } from "../types/types";
 
 export const getArtistName = async (
   address_or_username: string

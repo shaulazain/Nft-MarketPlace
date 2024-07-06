@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { GetNftResponse, getNftParamsType } from "../../types/nfts/commonTypes";
-import { NftState } from "../../types/redux/commonTypes";
+import { GetNftResponse, getNftParamsType } from "../../types/types";
+import { NftState } from "../../types/types";
 import { AxiosResponse } from "axios";
 import openSeaApi from "../../api";
 

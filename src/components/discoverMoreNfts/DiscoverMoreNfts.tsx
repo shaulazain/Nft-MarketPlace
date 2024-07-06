@@ -1,12 +1,10 @@
 import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
 import { useEffect } from "react";
 import { ReactComponent as EyeIcon } from "../../assets/icons/eye.svg";
-import DisplayNFTs from "../displayNFTs/DisplayNfts";
-import {
-  fetchNftsByCollection,
-  clearNfts,
-} from "../../store/slices/NftsByCollectionSllice";
+import DisplayNFTs from "../../components/displayNFTs/DisplayNfts";
+
 import { Link } from "react-router-dom";
+import { clearNfts, fetchNftsByCollection } from "../../store/slices/NftsByCollectionSllice";
 
 
 export default function DiscoverMoreNfts(): JSX.Element {

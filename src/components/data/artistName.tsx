@@ -1,12 +1,11 @@
-import { useEffect, useState } from "react";
-import { getArtistName } from "../../data/data";
+// artistName.tsx
 
-interface ArtistNameProps {
-  creator: string;
-}
+import React, { useEffect, useState } from 'react';
+import { getArtistName } from '../../data/data';
+import { ArtistNameProps } from '../../types/types'; // Assuming types are defined correctly in types.ts
 
 export const ArtistName: React.FC<ArtistNameProps> = ({ creator }) => {
-  const [artistName, setArtistName] = useState<string>("");
+  const [artistName, setArtistName] = useState<string>('');
 
   useEffect(() => {
     const fetchArtistName = async () => {
