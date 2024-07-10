@@ -1,9 +1,9 @@
-import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
-import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg";
-import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
-import { ReactComponent as Youtube } from "../../assets/icons/youtube.svg";
-import { ReactComponent as Discord } from "../../assets/icons/discord.svg";
-import { ReactComponent as EnvelopIcon } from "../../assets/icons/envelope.svg";
+import { ReactComponent as Logo } from "../../assets/images/icons/logo.svg";
+import { ReactComponent as Twitter } from "../../assets/images/icons/twitter.svg";
+import { ReactComponent as Instagram } from "../../assets/images/icons/instagram.svg";
+import { ReactComponent as Youtube } from "../../assets/images/icons/youtube.svg";
+import { ReactComponent as Discord } from "../../assets/images/icons/discord.svg";
+import { ReactComponent as EnvelopIcon } from "../../assets/images/icons/envelope.svg";
 
 export default function Footer(): JSX.Element {
   return (

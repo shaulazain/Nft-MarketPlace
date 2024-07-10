@@ -1,6 +1,6 @@
 import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
 import { useEffect } from "react";
-import { ReactComponent as EyeIcon } from "../../assets/icons/eye.svg";
+import { ReactComponent as EyeIcon } from "../../assets/images/icons/eye.svg";
 import DisplayNFTs from "../../components/displayNFTs/DisplayNfts";
 
 import { Link } from "react-router-dom";

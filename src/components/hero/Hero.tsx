@@ -1,4 +1,4 @@
-import { ReactComponent as Rocket } from "../../assets/icons/rocket.svg";
+import { ReactComponent as Rocket } from "../../assets/images/icons/rocket.svg";
 import HeroImage from "./HeroImage";
 
 export default function Hero(): JSX.Element {

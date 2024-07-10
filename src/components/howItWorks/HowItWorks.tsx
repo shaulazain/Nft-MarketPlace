@@ -1,6 +1,6 @@
-import wallet from "../../assets/howItWorks/wallet.png";
-import collection from "../../assets/howItWorks/collection.png";
-import earning from "../../assets/howItWorks/earning.png";
+import wallet from "../../assets/images/wallet.png";
+import collection from "../../assets/images/collection.png";
+import earning from "../../assets/images/earning.png";
 export default function HowItWorks(): JSX.Element {
   return (
     <div className="px-[30px] py-[40px] md:px-[72px]  md:py-[80px] lg:px-[115px] lg:py-[40px]">

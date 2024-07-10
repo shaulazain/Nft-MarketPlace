@@ -1,6 +1,6 @@
 
 import { useNFTPage } from './useNFTPage'; // Import the custom hook
-import Loader from '../../assets/loadingRocket.gif';
+import Loader from '../../assets/images/gif/loadingRocket.gif';
 import Timer1 from '../../components/timer/timer';
 import { ArtistName } from '../../components/data/artistName';
 

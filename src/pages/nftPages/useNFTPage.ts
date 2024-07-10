@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { clearNfts, fetchNft } from '../../store/slices/NftSlice';
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { clearNfts, fetchNft } from '../../store/slices/NftSlice';
 
 export function useNFTPage() {
   const { contract, identifier } = useParams();

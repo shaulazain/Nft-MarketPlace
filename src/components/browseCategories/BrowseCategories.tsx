@@ -1,11 +1,11 @@
-import { ReactComponent as ArtIcon } from "../../assets/categoriesData/icons/art.svg";
-import { ReactComponent as CollectionIcon } from "../../assets/categoriesData/icons/collection.svg";
-import { ReactComponent as UtilityIcon } from "../../assets/categoriesData/icons/utility.svg";
-import { ReactComponent as PhotographyIcon } from "../../assets/categoriesData/icons/photography.svg";
-import { ReactComponent as SportIcon } from "../../assets/categoriesData/icons/sport.svg";
-import { ReactComponent as VirtualWordsIcon } from "../../assets/categoriesData/icons/virtualWords.svg";
-import { ReactComponent as VideoIcon } from "../../assets/categoriesData/icons/video.svg";
-import { ReactComponent as MusicIcon } from "../../assets/categoriesData/icons/music.svg";
+import { ReactComponent as ArtIcon } from "../../assets/images/icons/art.svg";
+import { ReactComponent as CollectionIcon } from "../../assets/images/icons/collection.svg";
+import { ReactComponent as UtilityIcon } from "../../assets/images/icons/utility.svg";
+import { ReactComponent as PhotographyIcon } from "../../assets/images/icons/photography.svg";
+import { ReactComponent as SportIcon } from "../../assets/images/icons/sport.svg";
+import { ReactComponent as VirtualWordsIcon } from "../../assets/images/icons/virtualWords.svg";
+import { ReactComponent as VideoIcon } from "../../assets/images/icons/video.svg";
+import { ReactComponent as MusicIcon } from "../../assets/images/icons/music.svg";
 import { categoryItems } from "../../constants";
 
 export default function BrowseCategories(): JSX.Element {

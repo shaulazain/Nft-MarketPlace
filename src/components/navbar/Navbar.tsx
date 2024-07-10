@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
-import { ReactComponent as User } from "../../assets/icons/user.svg";
-import { ReactComponent as Menu } from "../../assets/icons/burgerMenu.svg";
+import { ReactComponent as Logo } from "../../assets/images/icons/logo.svg";
+import { ReactComponent as User } from "../../assets/images/icons/user.svg";
+import { ReactComponent as Menu } from "../../assets/images/icons/burgerMenu.svg";
 import { Link } from "react-router-dom";
 
 function Navbar(): JSX.Element {

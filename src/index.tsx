@@ -4,7 +4,7 @@ import "./index.css";
 import Layout from "./Layout";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { store } from "./store/Store";
+import { store } from "./store/store";
 import { Provider } from "react-redux";
 import Home from "./pages/Home";
 import Category from "./pages/collections/Collections";

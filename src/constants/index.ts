@@ -1,20 +1,20 @@
-import collectiblesImg from "../assets/categoriesData/images/collectibles.png";
-import musicImg from "../assets/categoriesData/images/music.png";
-import photographyImg from "../assets/categoriesData/images/photography.png";
-import sportImg from "../assets/categoriesData/images/sport.png";
-import utilityImg from "../assets/categoriesData/images/utility.png";
-import videoImg from "../assets/categoriesData/images/video.png";
-import virtualWorldsImg from "../assets/categoriesData/images/virtualWorlds.png";
-import { ReactComponent as ArtIcon } from "../assets/categoriesData/icons/art.svg";
-import { ReactComponent as CollectionIcon } from "../assets/categoriesData/icons/collection.svg";
-import { ReactComponent as UtilityIcon } from "../assets/categoriesData/icons/utility.svg";
-import { ReactComponent as PhotographyIcon } from "../assets/categoriesData/icons/photography.svg";
-import { ReactComponent as SportIcon } from "../assets/categoriesData/icons/sport.svg";
-import { ReactComponent as VirtualWordsIcon } from "../assets/categoriesData/icons/virtualWords.svg";
-import { ReactComponent as VideoIcon } from "../assets/categoriesData/icons/video.svg";
-import { ReactComponent as MusicIcon } from "../assets/categoriesData/icons/music.svg";
+import collectiblesImg from "../assets/images/collectibles.png";
+import musicImg from "../assets/images/music.png";
+import photographyImg from "../assets/images/photography.png";
+import sportImg from "../assets/images/sport.png";
+import utilityImg from "../assets/images/utility.png";
+import videoImg from "../assets/images/video.png";
+import virtualWorldsImg from "../assets/images/virtualWorlds.png";
+import { ReactComponent as ArtIcon } from "../assets/images/icons/art.svg";
+import { ReactComponent as CollectionIcon } from "../assets/images/icons/collection.svg";
+import { ReactComponent as UtilityIcon } from "../assets/images/icons/utility.svg";
+import { ReactComponent as PhotographyIcon } from "../assets/images/icons/photography.svg";
+import { ReactComponent as SportIcon } from "../assets/images/icons/sport.svg";
+import { ReactComponent as VirtualWordsIcon } from "../assets/images/icons/virtualWords.svg";
+import { ReactComponent as VideoIcon } from "../assets/images/icons/video.svg";
+import { ReactComponent as MusicIcon } from "../assets/images/icons/music.svg";
 import { CategoryItem } from "../types/types";
-import artImg from '../assets/categoriesData/images/art.png'
+import artImg from '../assets/images/art.png'
 
 export const categoryItems: CategoryItem[] = [
   {
