@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { CollectionType } from "../../types/types";
 import { Link } from "react-router-dom";
 import { fetchCollections } from "../../store/slices/NftCollectionsSlice";
+import  nft1 from '../../assets/images/nft1.png'
+import numbernft from '../../assets/images/Number of additional NFTs.png'
 export default function TrendingCollection(): JSX.Element {
   const collections = useAppSelector(
     (state) => state.collectionsReducer.collections?.collections
@@ -34,10 +36,22 @@ export default function TrendingCollection(): JSX.Element {
               className={`md:max-w-[330px] max-w-[315px] flex-col gap-[15px] lg:flex`}
             >
               <img
-                alt=""
+                alt="NFTS"
                 src={item?.image_url}
                 className=" w-full  size-[315px] md:size-[330px] rounded-[20px]"
               />
+             <div className="flex gap-y-4 gap-2">
+              <div>
+               <img src={nft1} alt="nft1" className="w-[100px] h-[100px] rounded-[20px]" />
+              </div>
+              <div>
+               <img src={nft1} alt="nft1" className="w-[100px] h-[100px] rounded-[20px]" />
+              </div>
+              <div>
+                <img src={numbernft} alt="nft1" className="w-[100px] h-[100px]"/>
+              </div>
+             </div>
+            
 
              
 
